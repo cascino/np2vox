@@ -1,12 +1,14 @@
 import numpy as np 
 from converter import MeshConverter
 
+# usage examples
+
 # create mesh converter object
 voxmesh = MeshConverter()
 
 # array to visualize
 vox = np.random.randint(2, size=(30, 30, 30))
-#voxmesh.render_voxels(vox)
+voxmesh.render_voxels(vox)
 
 # animation example
 voxlist = []
